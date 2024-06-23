@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: configserver
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/yigitkalay/Turkcell-Java-Crm-Project-Configurations
+
+
+# this section shouldn't be changed
+configUrl: http://localhost:8079
+server:
+  port: 8079
